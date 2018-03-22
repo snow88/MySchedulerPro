@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp">
+
+    <ImageButton
+        android:id="@+id/btnarrowup"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uparrow"/>
+
+    <ImageButton
+        android:id="@+id/btnarrowdown"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrowdown"/>
+
+    <TextView
+        android:id="@+id/tvtask"
+        android:text="Sample Task"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingHorizontal="10dp"/>
+
+    <CheckBox
+        android:id="@+id/chkbox"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/imgbtn"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/trashbin" />
+
+</LinearLayout>
